@@ -8,8 +8,16 @@
 
 ## Initial plan
 
+### Phase 1
+
 * Use [orbtk](https://lib.rs/crates/orbtk), that also provides some experience with the GUI library of RedoxOS
 * A text input, for pasting code from leetcode
+* After providing input, it should output a .cpp file, that takes the test case as CLI args (simple use case only)
+
+> Stop here for now
+
+### Phase 2 (Complete GUI)
+
 * Input fields (with different types maybe, initially int,string,vector of those), for providing test case input
 * Pass inputs using CLI args
 * Give two options... open gdb (The main focus, stop here for now), open .cpp file in VS Code (for better visual debugging)
